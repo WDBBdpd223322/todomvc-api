@@ -1,3 +1,24 @@
+# 服务器使用
+
+- 下载服务器文件和依赖
+```shell
+$ git clone https://github.com/WDBBdpd223322/todomvc-api.git
+$ cd todomvc-api/
+$ npm i
+```
+
+- 修改数据库链接信息
+  - 打开 `db` 文件夹
+  - 打开 `DBConfig.js` 文件
+  - 修改 `password`
+
+- 将 `todomvc.sql` 文件导入数据库，默认数据库名称叫做 `todomvc`
+
+- 启动项目
+```shell
+$ npm start
+```
+
 # todomvc 接口文档
 
 - 基准地址 `http://localhost:8080`
