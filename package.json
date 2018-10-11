@@ -1,0 +1,17 @@
+{
+  "name": "todo_api",
+  "version": "1.0.0",
+  "description": "专门用于 todomvc 案例的一个小型服务器",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "keywords": [],
+  "author": "guoxiang",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "mysql": "^2.16.0"
+  }
+}
